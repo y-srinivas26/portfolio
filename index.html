@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>Portfolio</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Srinivas</span>
+                </h1>
+                <p class="hero-subtitle">
+                    I'm a <span class="typing-text" id="typing-text"></span>
+                </p>
+                <p class="hero-description">
+                    Passionate about creating innovative solutions and bringing ideas to life through code.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-secondary">View My Work</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-placeholder">
+                    <div class="profile-circle"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Learn more about my background and experience</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I’m a final-year B.Tech Computer Science student with a strong interest in Artificial Intelligence, Machine Learning, and Web Development. I enjoy solving real-world problems through code and creating meaningful, user-focused digital experiences.
+                    </p>
+                    <p>
+                        My core strength lies in front-end development, where I bring ideas to life using modern technologies like HTML, CSS, JavaScript, and React. I’m always eager to explore new tools, contribute to impactful projects, and continuously grow as a developer.
+                    </p>
+                    
+                   
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <p class="section-subtitle">Technologies I work with</p>
+            </div>
+            <section id="skills" class="skills-section">
+                <div class="container">
+                  <h2 class="section-title">Technical Skills</h2>
+                  <div class="skills-grid">
+                    <div class="skill-card">
+                      <i class="fab fa-html5"></i>
+                      <h3>HTML</h3>
+                      <p>Building block of web development.</p>
+                    </div>
+                    <div class="skill-card">
+                      <i class="fab fa-css3-alt"></i>
+                      <h3>CSS</h3>
+                      <p>Styling and layout for web pages.</p>
+                    </div>
+                    <div class="skill-card">
+                      <i class="fab fa-js"></i>
+                      <h3>JavaScript</h3>
+                      <p>Interactive and dynamic web content.</p>
+                    </div>
+                    <div class="skill-card">
+                      <i class="fab fa-python"></i>
+                      <h3>Python</h3>
+                      <p>Versatile programming language for various applications.</p>
+                    </div>
+                    <div class="skill-card">
+                      <i class="fab fa-java"></i>
+                      <h3>Java</h3>
+                      <p>Object-oriented programming for building robust applications.</p>
+                    </div>
+                    <div class="skill-card">
+                      <i class="fas fa-database"></i>
+                      <h3>Data Structures</h3>
+                      <p>Fundamental concepts for organizing data.</p>
+                    </div>
+                    <div class="skill-card">
+                      <i class="fas fa-database"></i>
+                      <h3>MySQL</h3>
+                      <p>Relational database management system.</p>
+                    </div>
+                    <div class="skill-card">
+                      <i class="fas fa-database"></i>
+                      <h3>DBMS</h3>
+                      <p>Database Management System concepts.</p>
+                    </div>
+                    <div class="skill-card">
+                      <i class="fas fa-calculator"></i>
+                      <h3>MATLAB</h3>
+                      <p>Programming for numerical computing.</p>
+                    </div>
+                    <div class="skill-card">
+                      <i class="fas fa-code"></i>
+                      <h3>Kotlin</h3>
+                      <p>Modern programming language for Android development.</p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              
+
+              <div class="project-card" data-project="3">
+                <div class="project-image">
+                    <img src="https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Feast Express">
+                    <div class="project-overlay">
+                        <a href="https://your-username.github.io/feast-express/" target="_blank">
+                            <button class="btn btn-primary view-project">View Project</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Feast Express</h3>
+                    <p class="project-description">
+                        A user-friendly food delivery platform designed to explore menus and place orders easily.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Kotlin</span>
+                        <span class="tech-tag">Firebase</span>
+                        <span class="tech-tag">XML</span>
+                        <span class="tech-tag">Android Studio</span>
+                        <span class="tech-tag">Java</span>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="project-card" data-project="4">
+                <div class="project-image">
+                    <img src="https://images.pexels.com/photos/952473/pexels-photo-952473.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Crop Disease Detection">
+                    <div class="project-overlay">
+                        <a href="https://your-username.github.io/crop-detection/" target="_blank">
+                            <button class="btn btn-primary view-project">View Project</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Crop Disease Detection</h3>
+                    <p class="project-description">
+                        An AI-powered project that uses Convolutional Neural Networks (CNN) to detect diseases in crop leaves based on image data, helping farmers take timely action.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">CNN</span>
+                        <span class="tech-tag">Deep Learning</span>
+                        <span class="tech-tag">TensorFlow</span>
+                        <span class="tech-tag">AI</span>
+                    </div>
+                </div>
+            </div>
+            
+            
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's work together on your next project</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>yelisettysrinivas8@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+91 9392842584</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>vinukonda</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 John Doe. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">LinkedIn</a>
+                    <a href="#" class="social-link">GitHub</a>
+                    <a href="#" class="social-link">Twitter</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div class="modal-overlay" id="modal-overlay">
+        <div class="modal" id="project-modal">
+            <div class="modal-header">
+                <h3 class="modal-title" id="modal-title">Project Title</h3>
+                <button class="modal-close" id="modal-close">&times;</button>
+            </div>
+            <div class="modal-content">
+                <img src="" alt="" class="modal-image" id="modal-image">
+                <div class="modal-description" id="modal-description">
+                    <p>Project description goes here...</p>
+                </div>
+                <div class="modal-tech" id="modal-tech">
+                    <!-- Tech tags will be populated by JavaScript -->
+                </div>
+                <div class="modal-links">
+                    <a href="#" class="btn btn-primary" id="modal-live-link">Live Demo</a>
+                    <a href="#" class="btn btn-secondary" id="modal-github-link">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
